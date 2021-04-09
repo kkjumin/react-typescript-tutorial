@@ -1,4 +1,3 @@
-import About from "./pages/About";
 import Home from "./pages/Home";
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
       </header>
       <section className="contents-area">
         <Home />
-        <About />
       </section>
       <footer className="footer-area">footer area</footer>
     </div>
