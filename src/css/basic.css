@@ -1,0 +1,21 @@
+.App {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.App-header {
+  height: 100px;
+  background-color: #eee;
+}
+
+.contents-area {
+  height: 900px;
+  background-color: #ddd;
+}
+.contents {
+  width: 100%;
+}
+
+.footer-area {
+  height: 200px;
+  background-color: #eee;
+}

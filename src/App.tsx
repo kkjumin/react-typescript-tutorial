@@ -1,11 +1,17 @@
-import React from "react";
+import About from "./pages/About";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div>test</div>
+        <div>Hello, world!</div>
       </header>
+      <section className="contents-area">
+        <Home />
+        <About />
+      </section>
+      <footer className="footer-area">footer area</footer>
     </div>
   );
 }
