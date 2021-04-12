@@ -3,17 +3,11 @@ import About from "./About";
 // 홈
 
 class Home extends React.Component {
-  testrender(i: number) {
-    return <About />;
+  testrender(i: String) {
+    return <About text={i} />;
   }
   render() {
-    return (
-      <div className="contents">
-        Home
-        {this.testrender(1)}
-        {this.testrender(2)}
-      </div>
-    );
+    return <div className="contents">{this.testrender("hello, world!")}</div>;
   }
 }
 

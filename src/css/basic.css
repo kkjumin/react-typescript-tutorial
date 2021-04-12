@@ -1,21 +1,36 @@
-.App {
+.header-inner {
   max-width: 1280px;
+  height: 80px;
+  background-color: #eee;
   margin: 0 auto;
 }
-.App-header {
+.footer-inner {
+  max-width: 1280px;
   height: 100px;
   background-color: #eee;
+  margin: 0 auto;
+}
+
+.contents {
+  background-color: #ddd;
+  margin: 0 auto;
+  max-width: 1280px;
+  display: inline-block;
+  width: calc(100% - 200px);
+  height: 100%;
 }
 
 .contents-area {
+  max-width: 1280px;
+  background-color: #eee;
   height: 900px;
-  background-color: #ddd;
-}
-.contents {
-  width: 100%;
+  margin: 0 auto;
 }
 
-.footer-area {
-  height: 200px;
-  background-color: #eee;
+.side-menu {
+  display: inline-block;
+  width: 200px;
+  height: 100%;
+  vertical-align: top;
+  background-color: #ccc;
 }
