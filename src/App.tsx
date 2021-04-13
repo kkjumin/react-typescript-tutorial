@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from "./components/common/Footer";
 import Header from "./components/common/Header";
 import SideMenu from "./components/common/SideMenu";
-import About2 from "./pages/Abuout2";
+import About2 from "./pages/About2";
 import Home from "./pages/Home";
 
 interface StateType {

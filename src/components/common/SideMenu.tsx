@@ -1,15 +1,12 @@
 /* eslint-disable @typescript-eslint/no-redeclare */
 import React from "react";
 import { Link } from "react-router-dom";
-
 interface PropsType {
   menuList: Array<Object>;
 }
-
 interface MenuType {
   menu: any;
 }
-
 class Menu extends React.Component<MenuType> {
   render() {
     return (
@@ -19,7 +16,6 @@ class Menu extends React.Component<MenuType> {
     );
   }
 }
-
 class SideMenu extends React.Component<PropsType> {
   render() {
     let menuMap = () => {
